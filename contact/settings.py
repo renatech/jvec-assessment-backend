@@ -25,10 +25,11 @@ SECRET_KEY = 'django-insecure-$s$@)w80)r%b%tn%axf-37m-j5#)oe6^)g(12+91a(-a16yum3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://main--ephemeral-pothos-e47b07.netlify.app/"
 ]
 
 
